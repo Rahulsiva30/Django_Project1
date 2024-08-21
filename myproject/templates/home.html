@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+          "width=device-width, initial-scale=1.0">
+    <title>Responsive Inline Form</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+
+<body>
+    <div class="responsive-form">
+        <h1>User input forms</h1>
+        <h3>
+              Resize the screen to see
+            the form layout change!
+          </h3>
+        <form class="form-container">
+            <label for="firstName"
+                   class="form-container-label">
+                  First Name:
+              </label>
+            <input type="text"
+                   id="firstName"
+                   name="firstName"
+                   placeholder="Your first name"
+                   class="form-container-input" required>
+
+            <label for="lastName"
+                   class="form-container-label">
+                  Last Name:
+              </label>
+            <input type="text"
+                   id="lastName"
+                   name="lastName"
+                   placeholder="Your last name"
+                   class="form-container-input"
+                   required>
+
+            <label for="email"
+                   class="form-container-label">
+                  Email:
+              </label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Your email address"
+                   class="form-container-input"
+                   required>
+
+            <button type="submit"
+                    class="form-container-button">
+                  Submit
+              </button>
+        </form>
+    </div>
+</body>
+
+</html>
